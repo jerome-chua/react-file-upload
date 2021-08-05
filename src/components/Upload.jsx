@@ -1,10 +1,10 @@
 import React from "react";
-import { Button, FileUpload } from "carbon-components-react";
+import { Button } from "carbon-components-react";
 
 export default function Upload() {
   return (
     <>
-      <Button>Upload</Button>
+      <Button kind="primary">Upload</Button>
     </>
   );
 }
